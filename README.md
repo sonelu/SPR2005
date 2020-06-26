@@ -12,7 +12,7 @@ This HAT contains the following components:
   
 - Dual Dynamixel bus with very low latency (connected on SPI and
   not USB like the standard Robotis interfaces); supports speeds
-  up to 2Mbps and the board can be fitted with Moles SPOX (for
+  up to 2Mbps and the board can be fitted with Molex SPOX (for
   AX and MX servos), Molex Micro Latch (for XL-320) or JST-XE
   (for X series servos). Only TTL models supported (no RS485)
   
@@ -35,5 +35,5 @@ This HAT contains the following components:
 
 Revision  | Details
 ----------| -------
+rev B.1.  | Change power plug, added CP2104 for console access allowing access direct over USB, changed pin header to a through hole one as the SMD only go to          7.5mm and we wanted higher clearance from Raspberry Pi (and possible compatibility with [Coral](https://coral.ai/products/dev-board/) boards).
 rev A.1.  | Initial release. [Details](REV1.md)
-rev B.1.  | Change power plug, added CP2104 for console access allowing access direct over USB, changed pin header to a through hole one as the SMD only go to 7.5mm and we wanted higher clearance from Raspberry Pi (and possible compatibility with [Coral](https://coral.ai/products/dev-board/) boards).
